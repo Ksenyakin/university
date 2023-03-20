@@ -81,8 +81,8 @@ if ($errors) {
   exit();
 }
 
-$user = 'u52855';
-$pass = '5599036';
+$user = 'u52851';
+$pass = '1022160';
 $db = new PDO('mysql:host=localhost;dbname=u52855', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
 try {
