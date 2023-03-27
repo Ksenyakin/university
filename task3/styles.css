@@ -4,26 +4,24 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 98vh;
-    background: #eceffc;
     font-family: Montserrat;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    color: white;
+    padding: 20px;
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
 }
 
 .form-item {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .form-head {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 /* name & email animated inputs */
@@ -33,16 +31,15 @@ form {
 }
 
 .group1 {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .line {
     width: 285px;
     height: 30px;
-    font-size: 16px;
     background: transparent;
     border: none;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
     border-radius: 0px;
     color: white;
     padding: 0px;
@@ -129,7 +126,6 @@ textarea {
     resize: none;
     background: transparent;
     outline: none;
-    color: white;
     width: 100%;
     padding: 5px 5px 0px 5px;
     border-radius: 10px;
@@ -148,20 +144,9 @@ textarea {
 }
 
 select {
-    color: black;
-    background: white;
     border-radius: 5px;
     border: 0px;
     font-size: 16px;
 }
 
-.href {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    opacity: 0.1;
-}
 
-.href a {
-    text-decoration: none;
-}
